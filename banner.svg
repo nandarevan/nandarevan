@@ -1,0 +1,107 @@
+<svg fill="none" viewBox="0 0 800 450" width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          background-color: #030712;
+          border: 1px solid #1e3a8a;
+          border-radius: 12px;
+          padding: 24px;
+          font-family: 'Courier New', Courier, monospace;
+          color: #60a5fa;
+          display: flex;
+          gap: 24px;
+          box-shadow: 0 0 20px rgba(59, 130, 246, 0.2);
+          box-sizing: border-box;
+          height: 450px;
+        }
+        .visual-panel {
+          flex: 1;
+          border: 1px dashed #3b82f6;
+          border-radius: 8px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background: rgba(30, 58, 138, 0.1);
+          position: relative;
+        }
+        .data-panel {
+          flex: 1.3;
+          font-size: 13px;
+          line-height: 1.6;
+        }
+        .header-title {
+          font-size: 11px;
+          color: #93c5fd;
+          border-bottom: 1px solid #1e3a8a;
+          padding-bottom: 6px;
+          margin-bottom: 12px;
+          letter-spacing: 1px;
+        }
+        .section-title {
+          color: #38bdf8;
+          font-weight: bold;
+          margin-top: 10px;
+          border-left: 3px solid #38bdf8;
+          padding-left: 6px;
+        }
+        .label {
+          color: #94a3b8;
+        }
+        .val {
+          color: #f8fafc;
+        }
+        .ascii-art {
+          font-size: 6px;
+          line-height: 5px;
+          color: #38bdf8;
+          white-space: pre;
+          text-shadow: 0 0 5px #38bdf8;
+        }
+      </style>
+
+      <div class="container">
+        <!-- Visual Map / Profile Silhouette -->
+        <div class="visual-panel">
+          <div style="position: absolute; top: 8px; left: 8px; font-size: 9px; color: #38bdf8;">[ VISUAL_MAP // PORTRAIT_SIGNAL ]</div>
+          <pre class="ascii-art">
+        ░░░░████████░░░░
+        ░░████████████░░
+        ░░████████████░░
+        ░░░░████████░░░░
+        ░░░░░░████░░░░░░
+        ░░░░████████░░░░
+        ░░████████████░░
+        ░██████████████░
+        ████████████████
+        ████████████████
+          </pre>
+          <div style="position: absolute; bottom: 8px; font-size: 9px; color: #10b981;">● SIGNAL_LOCKED: ACTIVE</div>
+        </div>
+
+        <!-- Terminal Data Panel -->
+        <div class="data-panel">
+          <div class="header-title">SYSTEM_INIT // SUBJECT_DATA_v2.0</div>
+          
+          <div><span class="label">Subject  : </span><span class="val">Your Name</span></div>
+          <div><span class="label">Role     : </span><span class="val">AI Engineer &amp; Full-Stack Builder</span></div>
+          <div><span class="label">Base     : </span><span class="val">Jakarta, Indonesia</span></div>
+          <div><span class="label">Status   : </span><span class="val" style="color: #4ade80;">Researching / Building / Shipping</span></div>
+
+          <div class="section-title">-- RESEARCH_FOCUS</div>
+          <div><span class="label">Primary  : </span><span class="val">Computer Vision &amp; Deep Learning</span></div>
+          <div><span class="label">Secondary: </span><span class="val">Multi-agent Systems / Cloud Architecture</span></div>
+
+          <div class="section-title">-- TECH_STACK</div>
+          <div><span class="label">Core     : </span><span class="val">Python, PyTorch, YOLO, Golang, PHP</span></div>
+          <div><span class="label">Web/Cloud: </span><span class="val">React, Laravel, Docker, GCP, AWS</span></div>
+
+          <div class="section-title">-- GRID_LINKS</div>
+          <div><span class="label">Portfolio: </span><span class="val" style="color: #67e8f9;">yourportfolio.com</span></div>
+          <div><span class="label">LinkedIn : </span><span class="val" style="color: #67e8f9;">linkedin.com/in/username</span></div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
